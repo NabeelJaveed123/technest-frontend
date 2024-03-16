@@ -25,7 +25,7 @@ export default function Welcome() {
                     Sign Up
                 </Link>
                 <Link
-                    to="/authentication/signin"
+                    to="/authentication"
                     className="px-5 py-2 w-48 bg-green-300 rounded-full text-center"
                 >
                     Log In

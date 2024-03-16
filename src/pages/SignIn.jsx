@@ -58,7 +58,7 @@ export default function SignIn() {
                     }
                 );
                 handleLogin(user.data);
-                navigate("/");
+                // navigate("/");
             } catch (error) {
                 toast.error("Erorr while signing in");
             }

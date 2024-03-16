@@ -23,7 +23,8 @@ import UpdateProductsPage from "./pages/admin/UpdateProductsPage";
 import ProductPage from "./pages/ProductPage";
 import Contactus from "./pages/Contactus";
 import CartPage from "./pages/CartPage";
-import ProductCollection from "./pages/CollectionPage";
+
+
 
 const queryClient = new QueryClient({
     defaultOptions: {
@@ -56,7 +57,7 @@ export default function App() {
                         <Route path="/product/:id" element={<ProductPage />} />
                         <Route path="/contact-us" element={<Contactus/>} />
                         <Route path="/CartPage" element={<CartPage/>} />
-                        <Route path="/ProductCollection" element={<ProductCollection/>} />
+                        {/* <Route path="/ProductCollection" element={<ProductCollection/>} /> */}
                         <Route
                             path="/admin"
                             element={
