@@ -44,7 +44,7 @@ export default  function TopProduct({id , children, image , name , description ,
        <img src={"https://images.samsung.com/is/image/samsung/p6pim/bd/sm-a057flvhbkd/gallery/bd-galaxy-a05s-sm-a057-sm-a057flvhbkd-thumb-539556309?$344_344_PNG$"} alt="Product Image" className="w-full h-64"/>
        <div className="p-4 ">
          <h2 className="font-semibold text-lg mb-2">Apple Iphone 14</h2>
-         <p className="text-gray-700 mb-2 line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus euismod neque vel venenatis. Nullam ac tristique nisi. Sed vel fermentum velit, sit amet volutpat felis</p>
+         <p className="text-gray-700 mb-2 line-clamp-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus euismod  vel venenatis. Nullam ac tristique nisi. Sed vel fermentum velit, sit amet volutpat felis</p>
          <p className="text-gray-900 font-bold">370000</p>
          
        </div>
