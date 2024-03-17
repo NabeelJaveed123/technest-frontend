@@ -13,6 +13,7 @@ import {  FaHeart } from 'react-icons/fa';
 import Shipping from "../ui/Shipping";
 import TopProduct from "../ui/TopProduct";
 import PopularProduct from "../ui/PopularProduct";
+import HomeShippping from "../ui/Homeshipping";
 
 export default function Home() {
     const settings = {
@@ -58,6 +59,7 @@ export default function Home() {
         <>
             <Header />
             <Hero />
+            <HomeShippping/>
             <div class='m-auto max-w-[1200px]'>
         <Slider {...settings}>
         <Collection name="Mobile" image="https://www.bell.ca/Styles/images/img-banner_iPhone15_Pro_Alt-hero.png" />

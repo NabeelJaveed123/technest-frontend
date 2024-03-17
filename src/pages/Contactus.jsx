@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Header from '../ui/Header';
 import Footer from '../ui/Footer';
 import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 export default function Contactus()  {
 const form = useRef();
 
@@ -14,7 +15,7 @@ const form = useRef();
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          toast.success("Email Sent Successfully")
         },
         (error) => {
           console.log('FAILED...', error.text);

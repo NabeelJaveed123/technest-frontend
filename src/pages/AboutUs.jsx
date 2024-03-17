@@ -8,11 +8,12 @@ return(
     <Header />
     
     <div class="py-12 bg-white">
+        
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="lg:text-center">
                 <h2
-                    class="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest text-black uppercase title-font">
+                    class="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">
                     Why choose us?
                 </h2>
                 <p class="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
@@ -54,19 +55,19 @@ return(
                 </dl>
             </div>
             <div>
-                <div className='mt-5'>
+                <div className='mt-10'>
                     <h2 className='text-2xl pb-2 font-semibold'>What Sets Us Apart</h2>
                     <p className='py-2 font-semibold'>At Tech Nest, we're not just another e-commerce website – we're a team of dedicated professionals committed to excellence. Here's what sets us apart:</p>
                     <p>
-                    <h4 className='font-bold'>Product Diversity:</h4>
+                    <h4 className='font-semibold'>Product Diversity:</h4>
                     <p> From electronics and gadgets to fashion and home goods, we offer a wide range of products to suit every taste and budget.</p>  
-                    <h4 className='font-bold'>Cutting-Edge Technology:</h4>
+                    <h4 className='font-semibold'>Cutting-Edge Technology:</h4>
                     <p>Our platform is powered by state-of-the-art technology, ensuring a seamless and secure shopping experience for our customers.</p>
-                    <h4 className='font-bold'>Personalized Service:</h4>
+                    <h4 className='font-semibold'>Personalized Service:</h4>
                     <p>We understand that every customer is unique, which is why we offer personalized recommendations and tailored shopping experiences to meet individual needs.</p>
-                     <h4 className='font-bold'>Exceptional Customer Support:</h4>    
+                     <h4 className='font-semibold'>Exceptional Customer Support:</h4>    
                     <p>Our friendly and knowledgeable customer support team is available to assist you with any questions or concerns you may have, ensuring that your experience with Tech Nest is always a positive one.</p>
-                    <h4 className='font-bold' >Commitment to Innovation:</h4>
+                    <h4 className='font-semibold' >Commitment to Innovation:</h4>
                     <p>We're constantly innovating and evolving to stay ahead of the curve. Whether it's implementing new features or improving existing ones, we're always looking for ways to enhance the Tech Nest experience.</p>
                          
                     </p>
