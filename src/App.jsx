@@ -24,6 +24,7 @@ import ProductPage from "./pages/ProductPage";
 import Contactus from "./pages/Contactus";
 import CartPage from "./pages/CartPage";
 import AboutUs from "./pages/AboutUs";
+import Faqs from "./pages/Faqs";
 
 
 
@@ -59,7 +60,7 @@ export default function App() {
                         <Route path="/contact-us" element={<Contactus/>} />
                         <Route path="/CartPage" element={<CartPage/>} />
                         <Route path="/About-us" element={<AboutUs/>}/>
-                       
+                        <Route path="/Faqs" element={<Faqs/>}/>
                         {/* <Route path="/ProductCollection" element={<ProductCollection/>} /> */}
                         <Route
                             path="/admin"

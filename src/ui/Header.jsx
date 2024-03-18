@@ -205,20 +205,20 @@ const Header = () => {
                         </li>
 
                         <li className="relative group px-3 py-2">
-                            <a
-                                href="#"
+                            <Link
+                                 to={"/Contact-us"}
                                 className="hover:text-teal-500 cursor-pointer  "
                             >
                                 Contact Us
-                            </a>
+                            </Link>
                         </li>
                         <li className="relative group px-3 py-2">
-                            <a
-                                href="#"
+                            <Link
+                               to={"/About-us"}
                                 className=" hover:hover:text-teal-500 cursor-pointer"
                             >
                                 About Us
-                            </a>
+                            </Link>
                         </li>
                         <li className="relative group px-3 py-2">
                             <button className="hover:opacity-50 cursor-default">
@@ -230,45 +230,23 @@ const Header = () => {
                                     <div className="relative z-10">
                                         <ul className="text-[15px]">
                                             <li>
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                    to={"/"}
                                                     className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
                                                 >
                                                     Get Support
-                                                </a>
+                                                </Link>
                                             </li>
+                                            
                                             <li>
-                                                <a
-                                                    href="#"
-                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                >
-                                                    Blog
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="#"
+                                                <Link
+                                                     to={"/Faqs"}
                                                     className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
                                                 >
                                                     FAQs
-                                                </a>
+                                                </Link>
                                             </li>
-                                            <li>
-                                                <a
-                                                    href="#"
-                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                >
-                                                    Guides
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    href="#"
-                                                    className="text-gray-600 hover:text-gray-800 py-1 block font-normal"
-                                                >
-                                                    News &amp; Events
-                                                </a>
-                                            </li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
