@@ -25,6 +25,8 @@ import Contactus from "./pages/Contactus";
 import CartPage from "./pages/CartPage";
 import AboutUs from "./pages/AboutUs";
 import Faqs from "./pages/Faqs";
+import Collection from "./ui/Collection";
+import CollectionPage from "./pages/Collection";
 
 
 
@@ -61,6 +63,7 @@ export default function App() {
                         <Route path="/CartPage" element={<CartPage/>} />
                         <Route path="/About-us" element={<AboutUs/>}/>
                         <Route path="/Faqs" element={<Faqs/>}/>
+                        <Route path="/CollectionPage" element={<CollectionPage/>}/>
                         {/* <Route path="/ProductCollection" element={<ProductCollection/>} /> */}
                         <Route
                             path="/admin"

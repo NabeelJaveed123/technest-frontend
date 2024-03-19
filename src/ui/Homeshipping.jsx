@@ -40,5 +40,10 @@ export default function HomeShippping(){
         </div>
         </div>
          </div>
+
+
+
+
+
     )
 }
