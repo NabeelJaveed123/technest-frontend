@@ -1,10 +1,10 @@
-const Data = [
+  export const  Product = [
     {
       id: "1",
       name: "Poha",
       category: "Breakfast",
       price: "$1",
-      img: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
+      img: "https://www.cavaraty.com/web/image/product.image/23228/image_1024/Apple%20iPhone%2015%20Pro%20Max%20256GB%20%28Blue%20Titanium%29?unique=7e76289",
       desc: " Poha. Light, filling and easy to make, poha is one famous breakfast that is eaten almost everywhere in the country. And the best part is- it can be made in a number of ways. Kanda poha, soya poha, Indori poha, Nagpur Tari Poha are a few examples",
     },
     {
@@ -12,7 +12,7 @@ const Data = [
       name: "Upma",
       category: "Breakfast",
       price: "$1",
-      img: "https://c.ndtvimg.com/2021-04/37hi8sl_rava-upma_625x300_17_April_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
+      img: "https://assets2.razerzone.com/images/pnx.assets/5af9b83e1a46bac99f7ed80fd498390d/razer-blade-14-p10-500x500.webp",
       desc: " A quintessential South Indian Breakfast! Made with protein-packed urad dal and semolina followed by crunchy veggies and curd, this recipe makes for a hearty morning meal. With some grated coconut on top, it gives a beautiful south-Indian flavour.",
     },
     {
@@ -20,7 +20,7 @@ const Data = [
       name: "Cheela",
       category: "Breakfast",
       price: "$1",
-      img: "https://c.ndtvimg.com/2019-05/1afu8vt8_weight-loss-friendly-breakfast-paneer-besan-chilla_625x300_25_May_19.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
+      img: "https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mobility/slim-folio-ipad-keyboard-case/gallery/slim-folio-gallery-1-crayon.png?v=1",
       desc: "A staple across Indian households, moong dal is widely used in a number of Indian delicacies. One such delicacy is moong dal cheela. You can also add paneer to this recipe to amp up the nutritional value and make it, even more, protein-dense",
     },
     {
@@ -28,7 +28,7 @@ const Data = [
       name: "Channa Kulcha",
       category: "Lunch",
       price: "$1",
-      img: "https://i.ndtvimg.com/i/2015-04/chana-kulcha_625x350_41429707001.jpg",
+      img: "https://www.heavys.com/cdn/shop/files/MonochromaticBlack_Bundle_3DShells_1.png?v=1710541524&width=1445",
       desc: "A classic dish that never goes out of style. The quintessential chana kulcha  needs only a few ingredients - cumin powder, ginger, coriander powder, carom powder, and some mango powder, which is what gives the chana its sour and tangy taste.",
     },
     {
@@ -36,7 +36,7 @@ const Data = [
       name: "Egg Curry",
       category: "Lunch",
       price: "$1",
-      img: "https://i.ndtvimg.com/i/2017-11/goan-egg-curry_620x350_41511515276.jpg",
+      img: "https://shoporama.pk/cdn/shop/products/audionic-the-sound-master-default-title-mega-60-2-1-speakers-35754306535580.png?v=1696883435",
       desc: "Eggs are a versatile food that can be cooked for any meal of the day. From breakfast to dinner, it can be a go-to food. Here is a mildly-spiced egg curry made with garlic, onions, a whole lot of kasuri methi, fresh cream, yogurt, and fresh coriander.",
     },
     {
@@ -44,7 +44,7 @@ const Data = [
       name: "Paneer Aachari",
       category: "Lunch",
       price: "$1",
-      img: "https://i.ndtvimg.com/i/2015-04/paneer_625x350_61429707960.jpg",
+      img: "https://images.samsung.com/is/image/samsung/p6pim/pk/sm-s918bliqmea/gallery/pk-galaxy-s23-s918-452328-sm-s918bliqmea-535503844?$650_519_PNG$",
       desc: "Don't get intimidated by the list of ingredients because not only are already in your kitchen cabinet, but also because all they'll need is 20 minutes of your time. Chunks of cottage cheese cooked in some exciting spices, yogurt and a pinch of sugar.",
     },
     {
@@ -81,4 +81,4 @@ const Data = [
     },
   ];
    
-  export default Data;
+ 

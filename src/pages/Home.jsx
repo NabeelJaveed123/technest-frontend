@@ -70,7 +70,7 @@ export default function Home() {
         
         </Slider>
 
-        <h3 className="mt-20 mb-10 text-center text-3xl font-bold tracking-tight md:text-5xl">Our Products</h3>
+        <h3 className="text-4xl py-10">Our Products</h3>
         
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 

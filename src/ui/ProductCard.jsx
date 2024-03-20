@@ -1,5 +1,6 @@
 import {  FaHeart } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+
 export default  function Product({ image , name , Category, price , id , children  }) {
      return(
         
