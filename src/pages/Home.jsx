@@ -62,13 +62,11 @@ export default function Home() {
             <HomeShippping/>
             <div class='m-auto max-w-[1200px]'>
         <Slider {...settings}>
-        <Collection name="Mobile" image="https://www.bell.ca/Styles/images/img-banner_iPhone15_Pro_Alt-hero.png" />
-        <Collection name="Computer" image="https://www.computerhope.com/jargon/c/computer-types.png"/>
-        <Collection name="Ipad" image="https://www.stmgoods.com/wp-content/uploads/STM22-Studio-MultiFit-iPad-Air-5th-gen-Pro-3rd-gen-Blue-Quarter-Front.png"/>
-
-
-        <Collection name="HeadPhone" image="https://rhizmall.pk/wp-content/uploads/2022/12/ezgif.com-gif-maker-50.webp" />
-        <Collection name="Accessories" image="https://5.imimg.com/data5/SELLER/Default/2022/8/OO/SC/AZ/155817538/laptop-and-computer-accessories-500x500.png" />
+        <a href="/CollectionPage"><Collection name="Mobile" image="https://www.bell.ca/Styles/images/img-banner_iPhone15_Pro_Alt-hero.png" /></a>
+        <a href="/CollectionPage"><Collection name="Computer" image="https://www.computerhope.com/jargon/c/computer-types.png"/></a>
+        <a href="/CollectionPage"><Collection name="Tablet" image="https://www.stmgoods.com/wp-content/uploads/STM22-Studio-MultiFit-iPad-Air-5th-gen-Pro-3rd-gen-Blue-Quarter-Front.png"/></a>
+        <a href="/CollectionPage"><Collection name="Audio" image="https://rhizmall.pk/wp-content/uploads/2022/12/ezgif.com-gif-maker-50.webp" /></a>
+       <a href="/CollectionPage"> <Collection name="Accessories" image="https://5.imimg.com/data5/SELLER/Default/2022/8/OO/SC/AZ/155817538/laptop-and-computer-accessories-500x500.png" /></a>
         
         </Slider>
 
@@ -82,9 +80,9 @@ export default function Home() {
                 <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://images.samsung.com/is/image/samsung/p6pim/pk/sm-a245fzsvpkd/gallery/pk-galaxy-a24-sm-a245-sm-a245fzsvpkd-538124784?$650_519_PNG$" />
                 <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://images.samsung.com/is/image/samsung/p6pim/pk/sm-a346elgepkd/gallery/pk-galaxy-a34-5g-sm-a346-sm-a346elgepkd-538124878?$ORIGIN_PNG$?$450_450_PNG$" />
                 <ProductCard name="Apple Iphone 14 Apple Iphone 14 " price={370000} Category={"Mobile"} image="https://images.samsung.com/is/image/samsung/p6pim/pk/2202/gallery/pk-galaxy-a53-5g-a536-sm-a536elbgpkd-531569854?$650_519_PNG$" />
-                <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://www.whatmobile.com.pk/admin/images/Apple/AppleiPhone14ProMax-s.jpg" />
+                <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://www.bell.ca/Styles/images/img-banner_iPhone15_Pro_Alt-hero.png" />
                 <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://images.samsung.com/is/image/samsung/p6pim/pk/2202/gallery/pk-galaxy-a53-5g-a536-sm-a536elbgpkd-531569854?$650_519_PNG$" />
-                <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://www.whatmobile.com.pk/admin/images/Apple/AppleiPhone14ProMax-s.jpg" />
+                <ProductCard name="Apple Iphone 14" price={370000} Category={"Mobile"} image="https://www.bell.ca/Styles/images/img-banner_iPhone15_Pro_Alt-hero.png" />
                 
         
                 

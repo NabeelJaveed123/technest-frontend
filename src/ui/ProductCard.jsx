@@ -9,7 +9,7 @@ export default  function Product({ image , name , Category, price , id , childre
        <div className="bg-white shadow-md rounded-lg overflow-hidden transition duration-200 hover:translate-y-0.5 hover:shadow-lg relative h-full">
          <img src={image} alt="Product Image" className="w-full h-64"/>
          <div className="p-4 ">
-           <h2 className="font-semibold text-lg mb-2 text-teal-500">{name}</h2>
+           <h2 className="font-semibold text-lg mb-2 text-teal-500 line-clamp-1">{name}</h2>
            <p className="text-gray-700 mb-2 line-clamp-2">{Category}</p>
            <p className="text-gray-900 font-bold">{price}</p>
            

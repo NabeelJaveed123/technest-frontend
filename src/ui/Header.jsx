@@ -38,7 +38,7 @@ const Header = () => {
                                                 <ul className="mt-3 text-[15px]">
                                                     <li>
                                                         <a
-                                                            href="#"
+                                                            href="/product/undefined"
                                                             className="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-teal-500"
                                                         >
                                                             Apple iPhone 15 Pro
@@ -176,7 +176,7 @@ const Header = () => {
                                         <ul className="mt-3 text-[15px]">
                                             <li>
                                                 <a
-                                                    href="#"
+                                                    href="/CollectionPage"
                                                     className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-black font-semibold hover:from-teal-400 hover:to-teal-700 hover:via-teal-500 py-1 block"
                                                 >
                                                     Mobile
@@ -184,7 +184,7 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="#"
+                                                    href="/CollectionPage"
                                                     className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-black font-semibold hover:from-teal-400 hover:to-teal-700 hover:via-teal-500 py-1 block"
                                                 >
                                                     Laptop
@@ -192,10 +192,26 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <a
-                                                    href="#"
+                                                    href="/CollectionPage"
                                                     className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-black font-semibold hover:from-teal-400 hover:to-teal-700 hover:via-teal-500 py-1 block"
                                                 >
-                                                    Ipad
+                                                   Tablets
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="/CollectionPage"
+                                                    className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-black font-semibold hover:from-teal-400 hover:to-teal-700 hover:via-teal-500 py-1 block"
+                                                >
+                                                   Audio
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="/CollectionPage"
+                                                    className="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-black font-semibold hover:from-teal-400 hover:to-teal-700 hover:via-teal-500 py-1 block"
+                                                >
+                                                  Accessories
                                                 </a>
                                             </li>
                                         </ul>
